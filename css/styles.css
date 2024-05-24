@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --main-color: #770000;
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+.btn-primary {
+    background-color: var(--main-color) !important;
+    border: var(--main-color) !important;
+    border-radius: 1px !important;
+}
+
+.btn-light {
+    border-left: 5px solid var(--main-color) !important;
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 0 !important;
+    border-radius: 1px !important;
+    transition: 0.25s !important;
+}
+
+.btn-light:hover,
+.btn-light:focus {
+    box-shadow: inset 9.5rem 0 0 0 var(--main-color) !important;
+    color: white !important;
+    border-left: 5px solid white !important;
+}
+
+.header .main-color {
+    font-weight: 700;
+}
+
+.icons-sontainer i {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.carousel img {
+    height: 280px !important;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.carousel-caption {
+    right: 5% !important;
+    left: 5% !important;
+    bottom: 10% !important;
+    text-align: left !important;
+}
+
+.carousel-caption h5 {
+    font-size: 36px !important;
+}
