@@ -10,6 +10,7 @@
 :root {
     --main-color: #770000;
     --text-color: #b7b7b7;
+    --content-text-color: #76767f;
 }
 
 .main-color {
@@ -52,7 +53,7 @@
 }
 
 .carousel img {
-    height: 350px;
+    height: 400px;
     object-fit: cover;
     filter: brightness(50%);
 }
@@ -99,4 +100,18 @@
 
 .feature-text {
     margin-left: 30px;
+}
+
+.content .content-heading {
+    font-size: 32px;
+}
+
+.content .content-text {
+    font-size: 15px;
+    color: var(--content-text-color);
+}
+
+.content-dash {
+    width: 48px;
+    height: 8px;
 }
