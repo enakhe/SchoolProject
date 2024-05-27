@@ -16,25 +16,25 @@
 }
 
 .btn-primary {
-    background-color: var(--main-color) !important;
-    border: var(--main-color) !important;
-    border-radius: 1px !important;
+    background-color: var(--main-color);
+    border: var(--main-color);
+    border-radius: 1px;
 }
 
 .btn-light {
-    border-left: 5px solid var(--main-color) !important;
-    border-top: 0 !important;
-    border-right: 0 !important;
-    border-bottom: 0 !important;
-    border-radius: 1px !important;
-    transition: 0.25s !important;
+    border-left: 5px solid var(--main-color);
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-radius: 1px;
+    transition: 0.25s;
 }
 
 .btn-light:hover,
 .btn-light:focus {
-    box-shadow: inset 9.5rem 0 0 0 var(--main-color) !important;
-    color: white !important;
-    border-left: 5px solid white !important;
+    box-shadow: inset 9.5rem 0 0 0 var(--main-color);
+    color: white;
+    border-left: 5px solid white;
 }
 
 .header .main-color {
@@ -46,19 +46,23 @@
     margin: 0 10px;
 }
 
+.carousel {
+    padding-top: 30px;
+}
+
 .carousel img {
-    height: 280px !important;
+    height: 350px ;
     object-fit: cover;
     filter: brightness(50%);
 }
 
 .carousel-caption {
-    right: 5% !important;
-    left: 5% !important;
-    bottom: 10% !important;
-    text-align: left !important;
+    right: 5%;
+    left: 5%;
+    bottom: 10%;
+    text-align: left;
 }
 
 .carousel-caption h5 {
-    font-size: 36px !important;
+    font-size: 36px;
 }
