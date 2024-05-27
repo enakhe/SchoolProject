@@ -9,6 +9,7 @@
 
 :root {
     --main-color: #770000;
+    --text-color: #b7b7b7;
 }
 
 .main-color {
@@ -65,4 +66,32 @@
 
 .carousel-caption h5 {
     font-size: 36px;
+}
+
+.features-container {
+    padding: 52px 55px 0px;
+}
+
+.feature {
+    margin-bottom: 25px;
+}
+
+.feature h6, 
+.feature p {
+    margin-bottom: 0;
+}
+
+.feature h6 {
+    font-size: 18px;
+    color: var(--main-color);
+}
+
+.feature p {
+    font-size: 16px;
+    color: var(--text-color);
+    margin-top: 10px;
+}
+
+.feature-text {
+    margin-left: 20px;
 }
