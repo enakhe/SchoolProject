@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -52,7 +52,7 @@
 }
 
 .carousel img {
-    height: 350px ;
+    height: 350px;
     object-fit: cover;
     filter: brightness(50%);
 }
@@ -69,16 +69,21 @@
 }
 
 .features-container {
-    padding: 52px 55px 0px;
+    padding: 52px 30px 0px;
 }
 
 .feature {
     margin-bottom: 25px;
 }
 
-.feature h6, 
+.feature h6,
 .feature p {
     margin-bottom: 0;
+}
+
+.feature img {
+    width: 40px;
+    height: 40px;
 }
 
 .feature h6 {
@@ -93,5 +98,5 @@
 }
 
 .feature-text {
-    margin-left: 20px;
+    margin-left: 30px;
 }
