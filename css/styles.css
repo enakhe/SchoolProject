@@ -253,27 +253,6 @@
     padding: 70px 25px;
 }
 
-.news-letter-container {
-    padding: 60px 0;
-    margin-bottom: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--main-color);
-    color: white;
-}
-
-.newsletter .sub-heading {
-    font-size: 40px;
-    text-align: center;
-    max-width: 700px;
-}
-
-.news-letter-container .newsletter .btn-light:hover,
-.news-letter-container .newsletter .btn-light:hover {
-    box-shadow: inset 13rem 0 0 0 black;
-}
-
 @media only screen and (min-width: 1215px) {
     .carousel img {
         height: 550px;

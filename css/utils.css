@@ -11,7 +11,7 @@ a {
     text-decoration: none;
 }
 
-u {
+ul {
     list-style: none;
 }
 
@@ -125,6 +125,73 @@ u {
     margin-bottom: 10px;
 }
 
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 100px;
+}
+
+.sidenav a {
+    padding: 18px 0;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav a.active {
+    color: white;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 70px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.news-letter-container {
+    padding: 60px 0;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    color: white;
+}
+
+.newsletter {
+    padding: 30px;
+}
+
+.newsletter h4 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.newsletter .center {
+    margin-top: 30px;
+}
+
+.news-letter-container .newsletter .btn-light:hover,
+.news-letter-container .newsletter .btn-light:hover {
+    box-shadow: inset 13rem 0 0 0 black;
+}
+
 /* Footer Styling */
 .footer-container {
     background-color: #181818;
@@ -147,7 +214,17 @@ u {
 }
 
 .footer-bottom .paragraph {
-    margin-bottom: 0 !important;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
 }
 
 @media only screen and (min-width: 1215px) {
@@ -168,5 +245,16 @@ u {
     .btn-light:hover,
     .btn-light:focus {
         box-shadow: inset 13rem 0 0 0 var(--main-color);
+    }
+
+    .footer-bottom .paragraph {
+        margin-bottom: 0 !important;
+    }
+
+    .newsletter h4 {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+        max-width: 700px;
     }
 }
