@@ -388,6 +388,10 @@ u {
     .admission-writeup-container .content {
         height: 100%;
     }
+
+    .about-container {
+        height: 52vh;
+    }
 }
 
 
