@@ -21,6 +21,7 @@ u {
     --content-text-color: #76767f;
 }
 
+/* Utility Styling */
 .main-color {
     color: var(--main-color);
 }
@@ -53,6 +54,27 @@ u {
     align-items: center;
 }
 
+.heading {
+    font-size: 50px;
+}
+
+.sub-heading {
+    font-size: 25px;
+}
+
+.paragraph {
+    font-size: 19px;
+    color: var(--content-text-color);
+    line-height: 2;
+}
+
+.sub-paragraph {
+    font-size: 16px;
+    color: var(--content-text-color);
+    line-height: 2;
+}
+
+/* Header Styling */
 .header-container {
     -webkit-box-shadow: 7px 2px 56px -17px rgba(0, 0, 0, 0.41);
     -moz-box-shadow: 7px 2px 56px -17px rgba(0, 0, 0, 0.41);
@@ -94,6 +116,7 @@ u {
     margin-bottom: 10px;
 }
 
+/* Carousel Overiding Styling */
 .carousel {
     padding-top: 30px;
 }
@@ -106,7 +129,7 @@ u {
 
 .carousel-caption {
     right: 5%;
-    left: 5%;
+    left: 7%;
     bottom: 10%;
     text-align: left;
 }
@@ -115,6 +138,7 @@ u {
     font-size: 36px;
 }
 
+/* Feature Styling */
 .features-container {
     padding: 52px 30px 0px;
 }
@@ -148,6 +172,7 @@ u {
     margin-left: 30px;
 }
 
+/* Content Styling */
 .content .content-heading {
     font-size: 32px;
 }
@@ -169,6 +194,7 @@ u {
     color: black;
 }
 
+/* Admission Styling */
 .admission .admission-image img {
     width: 100%;
     height: 450px;
@@ -304,6 +330,46 @@ u {
     border-left: 5px solid white;
 }
 
+/* Curriculum Styling */
+.curriculum-container {
+    padding: 60px 0;
+}
+
+.curriculum-content img {
+    width: 100%;
+    height: 367px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.curriculum-content {
+    padding: 30px 0;
+}
+
+
+/* Tabs Styling */
+.tabs-container {
+    padding: 30px 0;
+}
+
+.tabs-container .nav-link {
+    color: black;
+}
+
+.tabs-container .nav-link.active {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.tabs-container .tab-contents img {
+    width: 384px;
+    height: 505px;
+}
+
+.tabs-container .tab-contents .tab-writeup {
+    padding: 70px 35px;
+}
+
 @media only screen and (min-width: 1215px) {
     .icons-sontainer {
         display: none;
@@ -391,6 +457,10 @@ u {
 
     .about-container {
         height: 52vh;
+    }
+
+    .service {
+        padding-left: 30px;
     }
 }
 
