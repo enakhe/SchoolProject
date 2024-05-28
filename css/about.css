@@ -9,10 +9,6 @@
     filter: brightness(70%);
 } */
 
-.showcase-container {
-    margin-bottom: 50px;
-}
-
 .showcase-container img {
     width: 100%;
     position: relative;
@@ -23,7 +19,7 @@
     padding-top: 120px;
     position: absolute;
     top: 1%;
-    left: 7%;
+    left: 3%;
 }
 
 .showcase h4 {
@@ -35,4 +31,38 @@
     font-size: 40px;
     font-weight: 700;
     color: white;
+}
+
+/* Breadcrumb Styling */
+.breadcrumbs {
+    margin: 30px 0 70px 0;
+}
+
+.breadcrumbs a {
+    color: #a0a0a0;
+}
+
+.breadcrumbs li.active {
+    color: var(--main-color);
+}
+
+/* About Us Styling */
+.aboutus h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid var(--main-color);
+}
+
+/* Core Values */
+.core-values-container {
+    background-image: url("../imgs/about2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.services-container {
+    opacity: 0.9;
 }
