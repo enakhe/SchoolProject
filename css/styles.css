@@ -244,7 +244,7 @@
 }
 
 .tabs-container .tab-contents img {
-    width: 384px;
+    width: 100%;
     height: 505px;
     object-fit: cover;
 }
