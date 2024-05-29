@@ -1,0 +1,11 @@
+.contact-form-container .btn-light {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.contact-form-container .btn-light:hover,
+.contact-form-container .btn-light:focus {
+    box-shadow: inset 9.5rem 0 0 0 white;
+    color: black;
+    border-left: 5px solid black;
+}
