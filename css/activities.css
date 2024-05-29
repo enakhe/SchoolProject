@@ -1,0 +1,25 @@
+.activities-container img {
+    width: 100%;
+    height: 800px;
+    object-fit: contain;
+}
+
+.activities {
+    padding: 60px 20px;
+}
+
+.activities img {
+    width: 100%;
+    height: 400px;
+}
+
+@media only screen and (min-width: 1215px) {
+    .activities {
+        padding: 60px 130px;
+    }
+
+    .activities img {
+        width: 400px;
+        height: 400px;
+    }
+}

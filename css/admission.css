@@ -1,0 +1,23 @@
+.core-values-container {
+    padding: 60px 0;
+}
+
+.application-process-container {
+    padding: 60px 20px;
+}
+
+.application-process-title {
+    font-size: 27px;
+    margin-bottom: 45px;
+    font-weight: 700;
+}
+
+.application-process-container .number {
+    font-size: 45px;
+    margin: 5px 33px 0px 7px;
+    font-weight: 800;
+}
+
+.application-process-container .number-title {
+    font-size: 18px;
+}
