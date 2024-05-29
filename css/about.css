@@ -60,7 +60,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 260vh;
+    margin-bottom: 50px;
 }
 
 .services-container {
