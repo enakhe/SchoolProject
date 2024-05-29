@@ -47,11 +47,19 @@
 }
 
 /* About Us Styling */
+.aboutus {
+    padding: 60px 20px;
+}
+
 .aboutus h3 {
     font-size: 30px;
     text-align: center;
     padding-bottom: 20px;
     border-bottom: 3px solid var(--main-color);
+}
+
+.aboutus p {
+    font-size: 16px;
 }
 
 /* Core Values */
@@ -60,10 +68,29 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 260vh;
+    height: 176vh;
     margin-bottom: 50px;
 }
 
 .services-container {
     opacity: 0.9;
+}
+
+.services-container2 {
+    padding: 60px 20px;
+}
+
+.services-container2 .service img {
+    margin-bottom: 25px
+}
+
+.services-container2 .service h4 {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 25px
+}
+
+.services-container2 .service p {
+    color: #6b6b6b;
+    font-size: 19px;
 }
