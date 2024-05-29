@@ -258,6 +258,89 @@ ul {
     border-left: 5px solid white;
 }
 
+/* Showcase Styling */
+.showcase-container img {
+    width: 100%;
+    position: relative;
+    filter: brightness(50%);
+}
+
+.showcase {
+    padding-top: 120px;
+    position: absolute;
+    top: 1%;
+    left: 3%;
+}
+
+.showcase h4 {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.showcase h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+/* Breadcrumb Styling */
+.breadcrumbs {
+    margin: 30px 0 70px 0;
+}
+
+.breadcrumbs a {
+    color: #a0a0a0;
+}
+
+.breadcrumbs li.active {
+    color: var(--main-color);
+}
+
+/* About Us Styling */
+.aboutus {
+    padding: 60px 20px;
+}
+
+.aboutus h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid var(--main-color);
+}
+
+.aboutus p {
+    font-size: 16px;
+}
+
+/* Admission Styling */
+.admission .admission-image img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.admission .admission-writeup-container .content {
+    background-color: var(--main-color);
+    padding: 50px 30px 30px;
+}
+
+.admission .admission-writeup-container .content h4,
+.admission .admission-writeup-container .content p {
+    color: white;
+}
+
+.admission .admission-writeup-container .content .btn-light {
+    margin-top: 30px;
+    border-left: 5px solid black;
+}
+
+.admission .admission-writeup-container .content .btn-light:hover,
+.admission .admission-writeup-container .content .btn-light:focus {
+    box-shadow: inset 12rem 0 0 0 black;
+    color: white;
+    border-left: 5px solid white;
+}
+
 @media screen and (max-height: 450px) {
     .sidenav {
         padding-top: 15px;
@@ -297,5 +380,41 @@ ul {
         text-align: center;
         margin-bottom: 20px;
         max-width: 700px;
+    }
+
+    .showcase-container img {
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .showcase {
+        top: 30%;
+    }
+
+    .aboutus {
+        padding: 30px 20px;
+    }
+
+    .aboutus h3 {
+        padding-bottom: 5px;
+        border: 0;
+    }
+
+    .admission {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .admission .admission-image img {
+        width: 450px;
+    }
+
+    .admission-writeup-container {
+        height: 450px;
+    }
+
+    .admission-writeup-container .content {
+        height: 100%;
     }
 }
