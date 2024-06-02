@@ -104,7 +104,7 @@
 
 /* About Styling */
 .about-container {
-    background-image: url("../imgs/overlay1.jpg");
+    background-image: url("../imgs/banner.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -203,15 +203,16 @@
 
     .carousel-caption h5 {
         font-size: 72px;
+        max-width: 700px;
     }
 
     .carousel-caption p {
-        font-size: 30px;
+        font-size: 20px;
         max-width: 700px;
     }
 
     .carousel-caption {
-        bottom: 20%;
+        bottom: 10%;
     }
 
     .features-container {
@@ -245,7 +246,7 @@
     }
 
     .about-container {
-        height: 52vh;
+        height: 60vh;
     }
 
     .service {

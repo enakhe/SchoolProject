@@ -417,4 +417,9 @@ ul {
     .admission-writeup-container .content {
         height: 100%;
     }
+
+    .news-letter-container .newsletter .btn-light {
+        display: block;
+        margin-top: 0;
+    }
 }
