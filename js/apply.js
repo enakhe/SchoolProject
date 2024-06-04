@@ -23,4 +23,12 @@ $(document).ready(function() {
         document.getElementById('step2').style.display = "none";
         document.getElementById('step1').style.display = "block"
     })
+
+    document.getElementById('open').addEventListener('click', () => {
+        document.getElementById("mySidenav").style.width = "100%";
+    })
+
+    document.getElementById('close').addEventListener('click', () => {
+        document.getElementById("mySidenav").style.width = "0";
+    })
 })
