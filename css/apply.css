@@ -1,0 +1,31 @@
+.apply-form {
+    -webkit-box-shadow: 7px 2px 56px -17px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 7px 2px 56px -17px rgba(0, 0, 0, 0.41);
+    box-shadow: 7px 2px 56px -17px rgba(0, 0, 0, 0.41);
+    padding: 30px;
+    border-top: 5px solid var(--main-color);
+}
+
+span {
+    color: red;
+}
+
+span.asteric {
+    display: inline;
+}
+
+span.validator {
+    display: none;
+}
+
+.show {
+    display: inline;
+}
+
+p {
+    font-size: 12px;
+}
+
+#step2 {
+    display: none;
+}

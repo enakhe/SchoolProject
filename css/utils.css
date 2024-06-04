@@ -30,6 +30,12 @@ ul {
     background-color: var(--main-color);
     border: var(--main-color);
     border-radius: 1px;
+    color: white !important;
+    padding: 15px 30px;
+}
+
+.btn-primary:hover {
+    background-color: #181818;
 }
 
 .btn-light {
@@ -46,6 +52,29 @@ ul {
     box-shadow: inset 9.5rem 0 0 0 var(--main-color);
     color: white;
     border-left: 5px solid white;
+}
+
+.btn-dark {
+    border-left: 5px solid var(--main-color);
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-radius: 1px;
+    transition: 0.25s;
+}
+
+.btn-light:hover,
+.btn-light:focus {
+    box-shadow: inset 9.5rem 0 0 0 var(--main-color);
+    color: white;
+    border-left: 5px solid white;
+}
+
+.btn-dark:hover,
+.btn-dark:focus {
+    box-shadow: inset 13rem 0 0 0 var(--main-color);
+    color: white;
+    border-left: 5px solid black;
 }
 
 .center {
@@ -74,13 +103,15 @@ ul {
     line-height: 2;
 }
 
-.form-control:focus {
+.form-control:focus,
+.form-select:focus {
     box-shadow: none;
 }
 
-.form-control {
+.form-control,
+.form-select {
     border-radius: 1px;
-    padding: 20px 15px;
+    padding: 15px 15px;
 }
 
 /* Header Styling */
@@ -369,6 +400,15 @@ ul {
     .btn-light:hover,
     .btn-light:focus {
         box-shadow: inset 13rem 0 0 0 var(--main-color);
+    }
+
+    .btn-dark {
+        padding: 15px 40px;
+    }
+
+    .btn-dark:hover,
+    .btn-dark:focus {
+        box-shadow: inset 20rem 0 0 0 var(--main-color);
     }
 
     .footer-bottom .paragraph {
