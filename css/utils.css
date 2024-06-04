@@ -31,7 +31,7 @@ ul {
     border: var(--main-color);
     border-radius: 1px;
     color: white !important;
-    padding: 15px 30px;
+    padding: 10px 30px;
 }
 
 .btn-primary:hover {
