@@ -4,7 +4,7 @@
 }
 
 .carousel img {
-    height: 400px;
+    height: 500px;
     object-fit: cover;
     filter: brightness(50%);
 }
@@ -174,7 +174,7 @@
 
 /* Tabs Styling */
 .tabs-container {
-    padding: 60px 20px;
+    padding: 0 20px 60px 20px;
 }
 
 .tabs-container .nav-link {
@@ -198,7 +198,7 @@
 
 @media only screen and (min-width: 1215px) {
     .carousel img {
-        height: 550px;
+        height: 650px;
     }
 
     .carousel-caption h5 {
@@ -224,7 +224,7 @@
         box-shadow: 7px 2px 56px -17px rgba(0, 0, 0, 0.41);
         position: absolute;
         width: 85%;
-        bottom: 9%;
+        /* bottom: %; */
         background-color: white;
         padding: 30px 30px;
     }
